@@ -1,0 +1,597 @@
+body{
+
+    margin:  0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#nav {
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    justify-content: center;
+    padding-top:  20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+#nav span img{
+    width: 100px;
+    margin-right: 150px;
+}
+#nav span a{
+    text-decoration: none;
+}
+#nav span{
+    margin: 20px;
+}
+.down{
+    padding-left: 200px;
+
+}
+.down a{
+    border: 2px  solid black;
+   
+    background-color:  rgb(139, 134, 123);
+}
+.down a:hover{
+    background-color: rgb(14, 14, 94);
+    color: white;
+}
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    height: 680px;
+}
+.childdiv1{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+   
+}
+.aa{
+    border: 2px solid black;
+    height: 550px;
+    width: 550px;
+    background-color: white;
+}
+.childdiv2{
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+}
+.myclient{
+    background-color: navy;
+    padding: 100px 0px 100px 0px;
+}
+.myclient1
+{
+  justify-content: center;
+  font-size: 20px;
+  display: flex;
+  color: white;
+  
+}
+
+.myclient div  img{
+    margin: 0px 40px 0px 40px;
+    justify-content: center;
+}
+.dedication{
+    padding: 40px;
+    justify-content: center;
+    padding: 80px;
+    display: flex;
+}
+.dedication div{
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-left: 2px solid black;
+}
+.dedication div img{
+    width: 80px;
+    height: 50px;
+    margin-bottom:-20px ;
+}
+.b1{
+    border: non ! important;
+}
+.dedication div span{
+    font-size: 30px;
+}
+/*=======my skills=====*/
+.mainskill{
+     display: flex;
+     justify-content: center;
+ 
+}
+.mainskill div{
+    
+    margin: 40px;
+}
+.mainskill div h1{
+    font-size: 50px ;
+}
+.mainskill div p{
+    font-size: 20px;
+}
+.ulskill{
+    display: flex;
+}
+.ulup{
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+}
+.ulskill li{
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+   background-color: white;
+
+
+}
+.pro{
+    display: flex;
+}
+.border{
+    font-size: 100px;
+}
+.year{
+    width:300px ;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2430px;
+    left: 100px;
+    background-color: aliceblue;
+}
+.year1{
+    color: orange;
+    font-size: 70px;
+    font-weight: 200;
+    margin: 0px;
+}
+.year2{
+    color: blue;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+
+
+.about {
+    background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+    display: flex;
+    justify-content: center;
+   padding: 100px 100px 100px 100px;
+   
+   
+}
+.about div{
+    margin: 0px 60px 0px 60px;
+}
+.about div p{
+    font-size: 20px;
+}
+
+.about div h1{
+    font-size: 60px;
+    
+}
+.hm{
+   border: 2px solid black;
+   height: 40px;
+   width: 120px;
+   background-color: blue;
+}
+.abc{
+    display: flex;
+   
+    justify-content: center;
+   padding: 120px 100px 100px 120px;
+}
+.abc div{
+    margin: 0px 60px 0px 60px;
+
+}
+    
+.abc div h1{
+    font size: 70px;
+}
+.abc div p{
+    font size: 20px;
+}
+
+    
+.five{
+    display: flex;
+
+}
+.five div{
+    border: 3px solid rgb(7, 7, 35);
+    width: 49%;
+    overflow: hidden;
+    margin: 1%;
+}
+.five div img{
+    width: 100%;
+}
+.five div img:hover{
+    scale: 1.2;
+   transition: scale 0.5s ease-out;
+}
+.five1{
+   
+    display: flex;
+}
+.five1 div{
+    border: 3px solid rgb(7, 7, 35);
+    width: 49%;
+    overflow: hidden;
+    margin: 1%;
+}
+.five1 div img{
+    width: 100%;
+}
+.five1 div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-out;
+}
+
+
+.faq{
+    margin-top: 60px;
+}
+.faq1{
+    font-size: 70px;
+    color: rgb(8, 8, 75);
+    justify-content: center;
+    margin: 0px 20px 0px 500px;
+    
+}
+.faq2{
+    color: orange;
+    display: flex;
+    font-size: 29px;
+    margin: 0px 0px 0px 620px;
+}
+.faq3{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+.faq3 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq3a{
+    width:  690px;
+    background-color: rgb(8, 8, 19);
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    display: none;
+}
+#check1:checked~.faq3a{
+    display: block;
+    transition:  display 5s ease-out;
+}
+.faq4{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+.faq4 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq4a{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    display: none;
+}
+#check2:checked~.faq4a{
+    display: block;
+    transition:  display 5s ease-out;
+}
+.faq5{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.faq5 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq5a{
+    width:  690px;
+    background-color: rgb(8, 8, 19);
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    display: none;
+}
+#check3:checked~.faq5a{
+    display: block;
+    transition:  display 5s ease-out;
+}
+.faq6{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.faq6 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq6a{
+    width:  690px;
+    background-color: rgb(8, 8, 19);
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    display: none;
+}
+#check4:checked~.faq6a{
+    display: block;
+    transition:  display 5s ease-out;
+}
+.faq7{
+    width:  700px;
+    background-color: rgb(8, 8, 19);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.faq7 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq7a{
+    width:  690px;
+    background-color: rgb(8, 8, 19);
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    display: none;
+}
+#check5:checked~.faq7a{
+    display: block;
+    transition:  display 5s ease-out;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    padding: 0px 70px 0px 100px;
+    margin-top: 70px;
+}
+
+
+.f{
+    font-size: 40px;
+    color: rgb(13, 13, 139);
+  
+
+}
+.work div {
+    
+    padding: 60px 0px 60px 0px;
+    
+   
+}
+       
+.w a {
+    border: 2px solid black;
+    height: 20px;
+    width: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+   font-size: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.w  :hover{
+    background-color: rgb(51, 16, 107);
+    color: aliceblue;
+   
+    
+}
+.blog{
+    display: flex;
+}
+.blog2{
+    color: orange;
+    display: flex;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+.b1{
+  padding: 0px 170px 0px  ;
+}
+
+.blog3{
+    display: flex;
+    justify-content: center;
+    padding: 10px 150px;
+  
+    
+}
+.blog3 div{
+  
+    width: 100%;
+    overflow: hidden;
+    margin: 1%;
+   
+ 
+}
+.blog3 div img{
+    width: 97%;
+    border-radius: 100px;
+   
+  
+}
+.blog3 div img:hover{
+    scale: 1.2;
+   transition: scale 0.5s ease-out;
+}
+.blog3 div p{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
